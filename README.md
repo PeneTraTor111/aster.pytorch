@@ -21,8 +21,13 @@ bash scripts/stn_att_rec.sh
 
 ## Test
 
+You can test with .lmdb files by
 ```
 bash scripts/main_test_all.sh
+```
+Or test with single image by
+```
+bash scripts/main_test_image.sh
 ```
 
 ## Pretrained model
@@ -50,18 +55,18 @@ If you find this project helpful for your research, please cite the following pa
 
 ```
 @article{bshi2018aster,
-  author  = {Baoguang Shi and
+  author    = {Baoguang Shi and
                Mingkun Yang and
                Xinggang Wang and
                Pengyuan Lyu and
                Cong Yao and
                Xiang Bai},
-  title   = {ASTER: An Attentional Scene Text Recognizer with Flexible Rectification},
-  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  volume  = {}, 
-  number  = {}, 
-  pages   = {1-1},
-  year    = {2018}, 
+  title     = {ASTER: An Attentional Scene Text Recognizer with Flexible Rectification},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  volume    = {41},
+  number    = {9},
+  pages     = {2035--2048},
+  year      = {2019},
 }
 
 @inproceedings{ShiWLYB16,
